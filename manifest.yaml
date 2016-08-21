@@ -1,7 +1,7 @@
 info:
   title: 'Orange Pages'
-  description: 'Return social media accounts associated with an email address.'
-  x-21-quick-buy: '21 buy http://[fcce:0798:30e3:d38b:fd59:0000:0000:0001]:5000/whois?email=satoshin@gmx.com'
+  description: 'Get the social media accounts associated with an email address.'
+  x-21-quick-buy: '21 buy http://10.244.120.4:10108/whois?email=satoshin@gmx.com'
   x-21-category: social
   x-21-app-image: "https://cdn.filepicker.io/api/file/EK9FFmP4SQaAgeJ5jtuY"
   x-21-total-price:
@@ -9,8 +9,8 @@ info:
     max: 7200
   contact:
     name: Will Binns
-    email: will@trek.io
-host: "[fcce:0798:30e3:d38b:fd59:0000:0000:0001]:5000"
+    email: binns@21.co
+host: 10.244.120.4:10108
 schemes:
   - http
 basePath: /
