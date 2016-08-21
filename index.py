@@ -25,7 +25,7 @@ payment = Payment(app, wallet)
 
 # Add 402
 @app.route('/whois')
-@payment.required(18)
+@payment.required(7200)
 def lookup_email():
      email = request.args.get('email')
      key = os.environ.get('FULLCONTACT_KEY')
@@ -44,4 +44,4 @@ def docs():
 
 # Init Host
 if __name__=='__main__':
-    app.run(host='0.0.0.0:10108', debug=True)
+    app.run(host='0.0.0.0')
