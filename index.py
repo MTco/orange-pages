@@ -28,7 +28,7 @@ payment = Payment(app, wallet)
 def lookup_email():
      email = request.args.get('email')
      key = os.environ.get('FULLCONTACT_KEY')
-     url = requests.get('http://api.fullcontact.com/v2/person.json?email='+email+'&apiKey='+key+)
+     url = requests.get('http://api.fullcontact.com/v2/person.json?email='+email+'&apiKey='+key)
      return url.text
 
 # Init Host
