@@ -10,7 +10,7 @@ info:
   contact:
     name: Will Binns
     email: will@trek.io
-host: fcce:0798:30e3:d38b:fd59:0000:0000:0001:5000
+host: "[fcce:0798:30e3:d38b:fd59:0000:0000:0001]:5000"
 schemes:
   - http
 basePath: /
