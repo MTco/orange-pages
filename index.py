@@ -13,6 +13,7 @@
 import requests
 import urllib
 import os
+import yaml
 from flask import Flask, request
 from two1.wallet import Wallet
 from two1.bitserv.flask import Payment
@@ -31,6 +32,16 @@ def lookup_email():
      url = requests.get('http://api.fullcontact.com/v2/person.json?email='+email+'&apiKey='+key)
      return url.text
 
+# Add Manifest
+@app.route('/manifest')
+def docs():
+    '''
+    Serves the app manifest to the 21 crawler.
+    '''
+    with open('manifest.yaml', 'r') as f:
+        manifest_yaml = yaml.load(f)
+    return json.dumps(manifest_yaml)
+
 # Init Host
 if __name__=='__main__':
-    app.run(host='0.0.0.0', debug=True)
+    app.run(host='0.0.0.0:10108', debug=True)
