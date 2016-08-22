@@ -6,8 +6,8 @@
 #                      /____/                    /____/             
 
 # Author: Will Binns (telegram.me/wbinns)
-# Description: Returns social media accounts associated with an email address.
-# License: Public Domain
+# Description: Get social media accounts associated with an email address.
+# License: Unlicense (unlicense.org)
 
 # Load libraries
 import requests
