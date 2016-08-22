@@ -6,6 +6,7 @@
 #                      /____/                    /____/             
 
 # Author: Will Binns (telegram.me/wbinns)
+# GitHub Repository: Orange Pages (github.com/wbinns/orange-pages/)
 # Description: Get social media accounts associated with an email address.
 # License: Unlicense (unlicense.org)
 
