@@ -5,7 +5,7 @@
 # \____/_/   \__,_/_/ /_/\__, /\___/  /_/    \__,_/\__, /\___/____/  
 #                      /____/                    /____/             
 
-# Author: Will Binns (telegram.me/wbinns)
+# Author: Will Binns (Threema ID: UFKZ739A | https://threema.ch)
 # Description: Get social media accounts associated with an email address.
 # GitHub Repository: Orange Pages (github.com/wbinns/orange-pages/)
 # License: Unlicense (unlicense.org)
