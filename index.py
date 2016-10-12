@@ -5,9 +5,8 @@
 # \____/_/   \__,_/_/ /_/\__, /\___/  /_/    \__,_/\__, /\___/____/  
 #                      /____/                    /____/             
 
-# Author: Will Binns (Threema ID: UFKZ739A | https://threema.ch)
 # Description: Get social media accounts associated with an email address.
-# GitHub Repository: Orange Pages (github.com/wbinns/orange-pages/)
+# GitHub Repository: Orange Pages (github.com/cryptopelago/orange-pages/)
 # License: Unlicense (unlicense.org)
 
 # Load libraries
@@ -46,4 +45,4 @@ def docs():
 
 # Init Host
 if __name__=='__main__':
-    app.run(host='::', port='10109')
+    app.run(host='::', port='10124')

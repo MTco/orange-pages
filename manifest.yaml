@@ -1,17 +1,12 @@
-info:
-  title: 'Orange Pages'
-  description: 'Get the social media accounts associated with an email address.'
-  x-21-quick-buy: '21 buy http://[fcce:a977:ee41:e895:bee4:0000:0000:0001]:10109/whois?email=satoshin@gmx.com'
-  x-21-category: social
-  x-21-app-image: "https://cdn.filepicker.io/api/file/EK9FFmP4SQaAgeJ5jtuY"
-  x-21-total-price:
-    min: 7200
-    max: 7200
-  contact:
-    name: Will Binns
-    email: binns@21.co
-host: '[fcce:a977:ee41:e895:bee4:0000:0000:0001]:10109'
-schemes:
-  - http
 basePath: /
+host: '[fcce:a977:ee41:e895:bee4:0000:0000:0001]:10124'
+info:
+  contact: {email: info@cryptopelago.com, name: Cryptopelago}
+  description: Get the social media accounts associated with an email address.
+  title: Orange Pages
+  x-21-app-image: https://cdn.filepicker.io/api/file/EK9FFmP4SQaAgeJ5jtuY
+  x-21-category: social
+  x-21-quick-buy: 21 buy http://[fcce:a977:ee41:e895:bee4:0000:0000:0001]:10124/whois?email=satoshin@gmx.com
+  x-21-total-price: {max: 7200, min: 7200}
+schemes: [http]
 x-21-manifest-path: /manifest
